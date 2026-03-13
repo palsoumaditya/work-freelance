@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  /* Custom Colors */
+  --color-lime: #e8f5a3;
+  --color-navy: #0d1f2d;
+  --color-accent: #c5f135;
+  --color-muted: #6b7280;
+
+  /* Custom Animations */
+  --animate-float: float 4s ease-in-out infinite;
+  --animate-float-slow: float 6s ease-in-out infinite;
+  --animate-float-delay: float 5s ease-in-out 1s infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --border: #e5e7eb;
+  --input: #e5e7eb;
+  --ring: #0d1f2d;
+  --radius: 0.5rem;
+
+  /* Primary Shadcn colors mapped to Navy if used */
+  --primary: 213 56% 11%;
+  --primary-foreground: 0 0% 100%;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    @apply antialiased;
+  }
+}
+
+@layer utilities {
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
