@@ -40,7 +40,7 @@ export default function VideoMockup({ src }: VideoMockupProps) {
       }`}
     >
       {/* MacBook-style Frame */}
-      <div className="relative bg-[#0c3d3d] rounded-2xl border border-[#0d2f2f] shadow-[0_30px_100px_rgba(0,0,0,0.4)] overflow-hidden">
+      <div className="relative bg-[#153d47] rounded-2xl border border-[#1a4a55] shadow-[0_30px_100px_rgba(0,0,0,0.4)] overflow-hidden">
         {/* Video Element (Full Frame) */}
         <video
           src={src}

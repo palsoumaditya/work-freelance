@@ -1,11 +1,18 @@
+"use client";
+
 import React from "react";
 import Link from "next/link";
 import { ChevronDown, Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useScrollDirection } from "@/hooks/use-scroll-direction";
 
 export default function Navbar() {
+  const scrollDirection = useScrollDirection();
+
   return (
-    <nav className="fixed top-[35.5px] z-40 w-full h-16 bg-lime flex items-center justify-between px-6 md:px-12">
+    <nav className={`fixed top-[35.5px] z-40 w-full h-16 bg-lime flex items-center justify-between px-6 md:px-12 transition-all duration-300 ${
+      scrollDirection === "down" ? "-translate-y-[calc(100%+35.5px)]" : "translate-y-0"
+    }`}>
       <div className="max-w-7xl mx-auto w-full flex items-center justify-between">
         
         {/* LEFT SIDE - Logo */}

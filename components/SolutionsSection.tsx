@@ -57,7 +57,7 @@ export default function SolutionsSection() {
 
           {/* Heading */}
           <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-6">
-            <span className="bg-[#c5f135] text-[#0d1f2d] px-2 rounded-sm mr-2">AI-Powered</span>
+            <span className="px-0 rounded-sm mr-2">AI-Powered</span>
             <span>Automation Solutions</span>
           </h2>
           

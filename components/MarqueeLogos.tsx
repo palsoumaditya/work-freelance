@@ -35,7 +35,7 @@ const logos: LogoItem[] = [
         <Zap className="w-5 h-5 text-white" />
       </div>
     ),
-    textColor: "text-[#0c3d3d]",
+    textColor: "text-[#153d47]",
     iconColor: "text-[#0c6b5e]",
   },
   {
@@ -46,7 +46,7 @@ const logos: LogoItem[] = [
         <Link2 className="w-5 h-5 text-[#0c6b5e]" />
       </div>
     ),
-    textColor: "text-[#0c3d3d]",
+    textColor: "text-[#153d47]",
     iconColor: "text-[#0c6b5e]",
   },
   {
@@ -57,7 +57,7 @@ const logos: LogoItem[] = [
         <div className="w-3 h-3 rounded-full bg-[#0c6b5e]" />
       </div>
     ),
-    textColor: "text-[#0c3d3d]",
+    textColor: "text-[#153d47]",
     iconColor: "text-[#0c6b5e]",
   },
   {

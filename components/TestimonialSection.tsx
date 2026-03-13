@@ -76,7 +76,7 @@ const brands: Brand[] = [
         <Zap className="h-5 w-5 text-white" />
       </div>
     ),
-    textClass: "text-[#0c3d3d]",
+    textClass: "text-[#153d47]",
   },
   {
     id: "interlock",
@@ -86,7 +86,7 @@ const brands: Brand[] = [
         <Link2 className="h-5 w-5 text-[#0c6b5e]" />
       </div>
     ),
-    textClass: "text-[#0c3d3d]",
+    textClass: "text-[#153d47]",
   },
   {
     id: "capsule",

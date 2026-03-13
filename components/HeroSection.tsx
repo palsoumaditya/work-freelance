@@ -5,7 +5,7 @@ import TypewriterText from './TypewriterText';
 
 export default function HeroSection() {
   return (
-    <section className="bg-lime min-h-[calc(100vh-100px)] pt-[180px] pb-32 flex flex-col items-center text-center relative overflow-hidden">
+    <section className="bg-gradient-to-b from-lime to-white min-h-[calc(100vh-100px)] pt-[180px] pb-32 flex flex-col items-center text-center relative overflow-hidden">
       
       {/* FLOATING DECORATIVE ICONS */}
       <div className="absolute top-[20%] left-[6%] w-14 h-14 rounded-full border-2 border-navy bg-lime flex items-center justify-center animate-float-slow">

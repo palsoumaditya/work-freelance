@@ -5,9 +5,9 @@ import IntegrationShowcase from "./IntegrationShowcase";
 
 export default function DemoSection() {
   return (
-    <section className="bg-white w-full">
+    <section className="w-full">
       {/* PART A: Video Mockup */}
-      <div className="px-6 md:px-16 lg:px-24 pt-16 pb-20">
+      <div className="bg-white px-6 md:px-16 lg:px-24 pt-16 pb-20">
         <VideoMockup src="/afterhero.webm" />
       </div>
 
@@ -21,7 +21,7 @@ export default function DemoSection() {
             <span className="text-xs font-semibold text-[#0d1f2d]">Integrations</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-extrabold text-[#0d1f2d]">
-            <span className="bg-[#c5f135] px-2 rounded-sm">AI Automation</span>
+            <span className="px-0 rounded-sm">AI Automation</span>
             <span> across 500+ apps</span>
           </h2>
         </div>
